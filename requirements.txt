@@ -1,0 +1,10 @@
+pandas>=2.0
+numpy>=1.24
+torch>=2.0
+scikit-learn>=1.3
+scipy>=1.11
+
+# NOTE: epftoolbox is NOT required and is not on PyPI (it installs from GitHub).
+# LEAR is implemented natively in models/baselines.py against the spread target,
+# because the published package assumes a single positive price series and cannot
+# take the asinh transform a zero-inflated spread needs.

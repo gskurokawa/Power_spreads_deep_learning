@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+data/*.npz
+data/modelling_table.csv
+experiments/results.csv
